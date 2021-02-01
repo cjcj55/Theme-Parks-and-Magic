@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "themeparksandmagic:block/cinderella_castle_roof_tiles_slab" },
+        "type=top": { "model": "themeparksandmagic:block/cinderella_castle_roof_tiles_slab_top" },
+        "type=double": { "model": "themeparksandmagic:block/cinderella_castle_roof_tiles" }
+    }
+}

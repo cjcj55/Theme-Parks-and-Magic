@@ -1,0 +1,23 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="All rights reserved" #mandatory https://choosealicense.com/
+issueTrackerURL="http://my.issue.tracker/" #optional
+ 
+[[mods]] #mandatory
+modId="themeparksandmagic" #mandatory
+version="1.0.0" #mandatory
+displayName="Theme Parks and Magic" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="YOU for downloading this mod to check it out!" #optional
+authors="cjcj55" #optional
+description='''
+This mod has been put together to give the player the ability to create
+their own Disney World or theme park in general.
+
+There are many new and exciting items, clothes, blocks, and more to
+decorate their world and immerse themselves in the theme park.
+
+The sky is the limit.  Let your imagination run free. :D
+''' #mandatory

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "themeparksandmagic:cinderella_castle_roof_tiles_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 2
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "themeparksandmagic:cinderella_castle_roof_tiles_slab"
+        }
+      ]
+    }
+  ]
+}

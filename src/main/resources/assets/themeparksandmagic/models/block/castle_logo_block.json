@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "themeparksandmagic:blocks/castle_logo_block"
+	}
+}
