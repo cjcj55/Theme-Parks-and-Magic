@@ -1,8 +1,13 @@
 {
 	"item.themeparksandmagic.coin": "Coin",
+	
 	"block.themeparksandmagic.castle_logo_block": "Castle Logo Block",
+	
 	"block.themeparksandmagic.cinderella_castle_bricks": "Cinderella Castle Bricks",
 	"block.themeparksandmagic.cinderella_castle_roof_tiles": "Cinderella Castle Roof Tiles",
 	"block.themeparksandmagic.cinderella_castle_roof_tiles_slab": "Cinderella Castle Roof Tiles Slab",
-	"block.themeparksandmagic.cinderella_castle_roof_tiles_stairs": "Cinderella Castle Roof Tiles Stairs"
+	"block.themeparksandmagic.cinderella_castle_roof_tiles_stairs": "Cinderella Castle Roof Tiles Stairs",
+	
+	"block.themeparksandmagic.mickey_mouse_plush_block": "Mickey Mouse Plush",
+	"block.themeparksandmagic.donald_duck_plush_block": "Donald Duck Plush"
 }

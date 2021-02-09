@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "themeparksandmagic:block/donald_duck_plush_block" },
+        "facing=south": { "model": "themeparksandmagic:block/donald_duck_plush_block", "y": 180 },
+        "facing=west":  { "model": "themeparksandmagic:block/donald_duck_plush_block", "y": 270 },
+        "facing=east":  { "model": "themeparksandmagic:block/donald_duck_plush_block", "y": 90 }
+    }
+}
