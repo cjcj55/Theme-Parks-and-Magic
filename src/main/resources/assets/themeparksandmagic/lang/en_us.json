@@ -9,5 +9,11 @@
 	"block.themeparksandmagic.cinderella_castle_roof_tiles_stairs": "Cinderella Castle Roof Tiles Stairs",
 	
 	"block.themeparksandmagic.mickey_mouse_plush_block": "Mickey Mouse Plush",
-	"block.themeparksandmagic.donald_duck_plush_block": "Donald Duck Plush"
+	"block.themeparksandmagic.minnie_mouse_plush_block": "Minnie Mouse Plush",
+	"block.themeparksandmagic.donald_duck_plush_block": "Donald Duck Plush",
+	
+	"block.themeparksandmagic.stitch_plush_block": "Stitch Plush",
+	
+	
+	"itemGroup.themeparksandmagictab": "Theme Parks and Magic"
 }

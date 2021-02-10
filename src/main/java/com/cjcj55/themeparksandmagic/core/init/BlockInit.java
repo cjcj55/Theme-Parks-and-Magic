@@ -1,9 +1,7 @@
 package com.cjcj55.themeparksandmagic.core.init;
 
 import com.cjcj55.themeparksandmagic.ThemeParksAndMagic;
-import com.cjcj55.themeparksandmagic.common.blocks.DonaldDuckPlushBlock;
-import com.cjcj55.themeparksandmagic.common.blocks.MickeyMousePlushBlock;
-
+import com.cjcj55.themeparksandmagic.common.blocks.DisneyCharacterPlushBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
@@ -36,9 +34,13 @@ public class BlockInit {
 	public static final RegistryObject<Block> CINDERELLA_CASTLE_ROOF_TILES_SLAB = BLOCKS.register("cinderella_castle_roof_tiles_slab", 
 			() -> new SlabBlock(AbstractBlock.Properties.from(CINDERELLA_CASTLE_ROOF_TILES.get())));
 	
-	public static final RegistryObject<Block> MICKEY_MOUSE_PLUSH_BLOCK = BLOCKS.register("mickey_mouse_plush_block", 
-			() -> new MickeyMousePlushBlock(AbstractBlock.Properties.create(Material.WOOL).hardnessAndResistance(2.0f, 4.0f).harvestLevel(0).sound(SoundType.CLOTH)));
+	public static final RegistryObject<Block> MICKEY_MOUSE_PLUSH_BLOCK = BLOCKS.register("mickey_mouse_plush_block", () -> new DisneyCharacterPlushBlock());
 	
-	public static final RegistryObject<Block> DONALD_DUCK_PLUSH_BLOCK = BLOCKS.register("donald_duck_plush_block", 
-			() -> new DonaldDuckPlushBlock(AbstractBlock.Properties.create(Material.WOOL).hardnessAndResistance(2.0f, 4.0f).harvestLevel(0).sound(SoundType.CLOTH)));
+	public static final RegistryObject<Block> MINNIE_MOUSE_PLUSH_BLOCK = BLOCKS.register("minnie_mouse_plush_block", () -> new DisneyCharacterPlushBlock());
+	
+	public static final RegistryObject<Block> DONALD_DUCK_PLUSH_BLOCK = BLOCKS.register("donald_duck_plush_block", () -> new DisneyCharacterPlushBlock());
+	
+	//public static final RegistryObject<Block> DAISY_DUCK_PLUSH_BLOCK = BLOCKS.register("daisy_duck_plush_block", () -> new DisneyCharacterPlushBlock());
+	
+	public static final RegistryObject<Block> STITCH_PLUSH_BLOCK = BLOCKS.register("stitch_plush_block", () -> new DisneyCharacterPlushBlock());
 }
